@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  background: #161515;
+  padding: 25px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-start {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.header-start ion-icon {
+  color: white;
+  font-size: 35px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.header-nav a {
+  color: white;
+  font-size: 22px;
+}
+
+.header-nav a:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header-end a {
+  color: white;
+  font-size: 24px;
+}
+.header-end a:hover {
+  border-bottom: 2px solid orange;
+}
+
+.header-end button {
+  padding: 10px 30px;
+  color: white;
+  background: orange;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid gray;
+  transition: 0.3s;
+}
+
+.header-end button:hover {
+  transform: scale(0.9);
+}
+
+.main-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  cursor: pointer;
+}
+
+.product {
+  box-shadow: 0 3px 13px black;
+  width: 240px;
+  border-radius: 10px;
+  height: 430px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.4s;
+  gap: 10px;
+}
+
+.product:hover {
+  transform: scale(0.9);
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: yellow;
+  font-size: 30px;
+}
+
+.product p {
+  font-size: 18px;
+  color: gray;
+}
+
+.line {
+  width: 90%;
+  background: gray;
+  height: 2px;
+}
+
+.icons ion-icon {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.hero .title {
+  margin: 20px 0;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+#footer {
+  background: #161515;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 150px;
+  padding-top: 120px;
+}
+.info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.main-email {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.email ion-icon {
+  color: rgb(238, 88, 88);
+  font-size: 22px;
+}
+
+.email a {
+  font-size: 20px;
+}
+.iphone {
+  width: 240px;
+  height: 210px;
+}
+.redmi {
+  width: 213px;
+}
+.image {
+  width: 190px;
+}
+.iphones {
+  width: 215px;
+}
+.server {
+  width: 240px;
+  height: 200px;
+}
+.maxs {
+  width: 200px;
+}
